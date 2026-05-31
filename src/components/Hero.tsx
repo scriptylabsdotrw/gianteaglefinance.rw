@@ -16,9 +16,9 @@ const item = {
   visible: { opacity: 1, y: 0, transition: { duration: 0.75, ease: [0.22, 1, 0.36, 1] } },
 }
 
-// Corporate finance background (Unsplash)
+// African finance professional (Pexels)
 const HERO_IMAGE =
-  'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1920&q=80'
+  'https://images.pexels.com/photos/7876449/pexels-photo-7876449.jpeg?auto=compress&cs=tinysrgb&w=1920'
 
 const stats = [
   { value: 'RWF 50M', label: 'Maximum facility' },

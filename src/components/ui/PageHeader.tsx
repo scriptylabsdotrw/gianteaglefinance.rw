@@ -10,7 +10,7 @@ interface PageHeaderProps {
 }
 
 const HEADER_IMAGE =
-  'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1920&q=80'
+  'https://images.pexels.com/photos/5583961/pexels-photo-5583961.jpeg?auto=compress&cs=tinysrgb&w=1920'
 
 /** Dark banner shown at the top of every inner page. */
 export default function PageHeader({ eyebrow, title, subtitle, current }: PageHeaderProps) {

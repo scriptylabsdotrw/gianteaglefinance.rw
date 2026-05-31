@@ -23,7 +23,7 @@ export default function CTABand() {
                   <ArrowRight01Icon className="h-4 w-4" />
                 </Link>
                 <Link
-                  to="/calculator"
+                  to="/#calculator"
                   className="inline-flex items-center justify-center gap-2 rounded-full border border-white/30 bg-white/5 px-7 py-3.5 text-sm font-semibold tracking-wide text-white backdrop-blur transition-colors hover:border-white/60 hover:bg-white/10"
                 >
                   Use the Calculator

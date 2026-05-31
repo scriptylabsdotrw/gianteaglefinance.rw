@@ -5,9 +5,9 @@ import Logo from './ui/Logo'
 const quickLinks = [
   { label: 'About', to: '/about' },
   { label: 'Services', to: '/services' },
-  { label: 'Loan Calculator', to: '/calculator' },
-  { label: 'Process', to: '/process' },
-  { label: 'FAQ', to: '/faq' },
+  { label: 'Loan Calculator', to: '/#calculator' },
+  { label: 'Process', to: '/#process' },
+  { label: 'FAQ', to: '/#faq' },
   { label: 'Insights', to: '/insights' },
   { label: 'Contact', to: '/contact' },
 ]

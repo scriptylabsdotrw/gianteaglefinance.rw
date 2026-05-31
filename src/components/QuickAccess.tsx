@@ -27,7 +27,7 @@ const items: QuickItem[] = [
     icon: Calculator01Icon,
     title: 'Loan Calculator',
     description: 'Estimate your monthly repayment before you apply.',
-    to: '/calculator',
+    to: '/#calculator',
   },
   {
     icon: Wallet01Icon,
