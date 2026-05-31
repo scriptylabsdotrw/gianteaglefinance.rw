@@ -16,9 +16,9 @@ const item = {
   visible: { opacity: 1, y: 0, transition: { duration: 0.75, ease: [0.22, 1, 0.36, 1] } },
 }
 
-// African finance professional (Pexels)
+// African finance professionals in a meeting (Pexels)
 const HERO_IMAGE =
-  'https://images.pexels.com/photos/7876449/pexels-photo-7876449.jpeg?auto=compress&cs=tinysrgb&w=1920'
+  'https://images.pexels.com/photos/6285073/pexels-photo-6285073.jpeg?auto=compress&cs=tinysrgb&w=1920'
 
 const stats = [
   { value: 'RWF 50M', label: 'Maximum facility' },
@@ -57,7 +57,7 @@ export default function Hero() {
           variants={container}
           initial="hidden"
           animate="visible"
-          className="relative mx-auto max-w-3xl px-6 py-20 text-center sm:px-10 sm:py-24 lg:py-32"
+          className="relative mx-auto max-w-3xl px-6 py-12 text-center sm:px-10 sm:py-14 lg:py-16"
         >
           <motion.h1
             variants={item}
@@ -124,7 +124,7 @@ export default function Hero() {
           {stats.map((stat, i) => (
             <div
               key={stat.label}
-              className={`px-4 py-7 text-center ${i >= 2 ? 'border-t border-white/10 sm:border-t-0' : ''}`}
+              className={`px-4 py-5 text-center ${i >= 2 ? 'border-t border-white/10 sm:border-t-0' : ''}`}
             >
               <p className="font-display text-2xl font-bold text-gold-bright sm:text-3xl">
                 {stat.value}
