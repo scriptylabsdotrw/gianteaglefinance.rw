@@ -16,10 +16,6 @@ const item = {
   visible: { opacity: 1, y: 0, transition: { duration: 0.75, ease: [0.22, 1, 0.36, 1] } },
 }
 
-// African finance professionals in a meeting (Pexels)
-const HERO_IMAGE =
-  'https://images.pexels.com/photos/6285073/pexels-photo-6285073.jpeg?auto=compress&cs=tinysrgb&w=1920'
-
 const stats = [
   { value: 'RWF 50M', label: 'Maximum facility' },
   { value: '24 hrs', label: 'Initial review' },
@@ -29,19 +25,19 @@ const stats = [
 
 export default function Hero() {
   return (
-    <section id="home" className="relative bg-white px-3 pt-24 sm:px-5 sm:pt-28 lg:pt-32">
-      <div className="relative mx-auto w-full max-w-[88rem] overflow-hidden rounded-[1.75rem] border border-black/[0.06] sm:rounded-[2.25rem]">
-        {/* Background image + solid overlay (no gradient) */}
+    <section id="home" className="relative bg-white pt-24 sm:pt-28 lg:pt-32">
+      <div className="relative w-full overflow-hidden">
+        {/* Dark finance professionals — night office setting */}
         <div
-          className="absolute inset-0 bg-cover bg-center"
-          style={{ backgroundImage: `url('${HERO_IMAGE}')` }}
+          className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+          style={{ backgroundImage: "url('https://images.pexels.com/photos/6285073/pexels-photo-6285073.jpeg?auto=compress&cs=tinysrgb&w=1920')" }}
           aria-hidden="true"
         />
-        <div className="absolute inset-0 bg-ink-black/80" aria-hidden="true" />
+        <div className="absolute inset-0 bg-ink-black/85" aria-hidden="true" />
 
         {/* Decorative gold eagle-inspired curves */}
         <svg
-          className="pointer-events-none absolute inset-x-0 top-0 h-full w-full opacity-[0.13]"
+          className="pointer-events-none absolute inset-x-0 top-0 h-full w-full opacity-[0.18]"
           viewBox="0 0 1200 600"
           fill="none"
           preserveAspectRatio="xMidYMid slice"

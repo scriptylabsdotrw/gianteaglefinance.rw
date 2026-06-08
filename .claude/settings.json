@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(node -e \"const h = require\\('c:/Users/ntari/Desktop/Projects/SL/gianteaglefinance.rw/node_modules/hugeicons-react'\\); const keys = Object.keys\\(h\\); console.log\\(keys.filter\\(k => /car|home|leaf|certif|plant|agri|licen|auction|tender|document|sprout|farm|vehicle/i.test\\(k\\)\\).join\\('\\\\n'\\)\\)\")"
+    ]
+  }
+}

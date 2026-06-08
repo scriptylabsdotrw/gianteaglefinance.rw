@@ -6,6 +6,7 @@ import Home from './pages/Home'
 import AboutPage from './pages/AboutPage'
 import ServicesPage from './pages/ServicesPage'
 import InsightsPage from './pages/InsightsPage'
+import InsightDetailPage from './pages/InsightDetailPage'
 import ContactPage from './pages/ContactPage'
 
 export default function App() {
@@ -19,6 +20,7 @@ export default function App() {
           <Route path="/about" element={<AboutPage />} />
           <Route path="/services" element={<ServicesPage />} />
           <Route path="/insights" element={<InsightsPage />} />
+          <Route path="/insights/:slug" element={<InsightDetailPage />} />
           <Route path="/contact" element={<ContactPage />} />
           <Route path="*" element={<Home />} />
         </Routes>

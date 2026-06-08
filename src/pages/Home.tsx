@@ -6,6 +6,7 @@ import LoanCalculator from '../components/LoanCalculator'
 import LoanProcess from '../components/LoanProcess'
 import FAQ from '../components/FAQ'
 import CTABand from '../components/CTABand'
+import Accreditations from '../components/Accreditations'
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
       <LoanProcess />
       <FAQ />
       <CTABand />
+      <Accreditations />
     </>
   )
 }
